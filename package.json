@@ -1,0 +1,31 @@
+{
+  "name": "crud-to-do-list",
+  "version": "1.0.0",
+  "description": "mvp to do list typescript",
+  "main": "app.ts",
+  "scripts": {
+    "test": "",
+    "compile": "npx ts-node ./src/main.ts",
+    "build": "npx tsc",
+    "start": "node dist/src/main.js",
+    "dev": "concurrently \"npx tsc --watch\" \"nodemon -q dist/src/main.js\"",
+    "prettier-format": "prettier --config .prettierrc '**/*.ts' --write"
+  },
+  "author": "Andre Santos",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "@prisma/client": "^4.5.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "prisma": "^4.5.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.14",
+    "@types/node": "^18.11.9",
+    "concurrently": "^7.5.0",
+    "nodemon": "^2.0.20",
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4"
+  }
+}
