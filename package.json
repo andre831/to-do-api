@@ -4,7 +4,7 @@
   "description": "mvp to do list typescript",
   "main": "app.ts",
   "scripts": {
-    "test": "npx jest --env node",
+    "test": "npx jest dist/src/test/todo.test.js",
     "compile": "npx ts-node ./src/main.ts",
     "build": "npx tsc",
     "start": "node dist/src/main.js",
