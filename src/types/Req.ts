@@ -1,3 +1,4 @@
 export interface Params {
-  id: string;
+  id?: string;
+  userId: string;
 }
